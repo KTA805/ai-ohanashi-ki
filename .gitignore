@@ -1,0 +1,32 @@
+# === 秘密情報（絶対に公開しない） ===
+.env
+*.key
+credentials.json
+*.pem
+
+# === プライバシー：子どもの音声・発話ログは公開しない ===
+recordings/
+logs/
+ohanashi_log*
+*.wav
+*.csv
+*.xlsx
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# === モデルファイル（大容量・ライセンス次第で判断） ===
+# *.tflite
+# *.onnx
+
+# === OS / エディタ ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
