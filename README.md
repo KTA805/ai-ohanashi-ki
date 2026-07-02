@@ -33,7 +33,7 @@ flowchart LR
 ```
 
 > ※ 音声認識・トリガー方式（ウェイクワード / Enterキー等）は実装に合わせて記載を調整してください。
-
+詳しい仕組みは Zenn の技術記事で解説しています → [子どもとAIが一緒にへんてこなお話を作る「AIおはなし機」をAmiVoice + GPT-4oで作った話](https://zenn.dev/kta805/articles/article_ai_ohanashiki)
 ---
 
 ## 🛠 必要なもの / Requirements
@@ -124,7 +124,7 @@ Python / OpenAI API（GPT-4o-mini, gpt-4o-mini-tts）/ 音声認識（Whisper・
 
 ## 📝 関連記事
 
-開発の技術的な詳細は Zenn にまとめています → `<your-zenn-url>`
+開発の技術的な詳細は Zenn にまとめています → `https://zenn.dev/kta805/articles/article_ai_ohanashiki`
 
 ---
 
